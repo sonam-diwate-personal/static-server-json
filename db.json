@@ -1,0 +1,742 @@
+{
+  "resourcesData": [
+    {
+      "groupName": "resources",
+      "Name": "Kyle Peters",
+      "id": 1,
+      "GroupId": 3,
+      "Color": "#f8ca8d",
+      "Description": "Technician II"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Jay Brooks",
+      "id": 2,
+      "GroupId": 3,
+      "Color": "#f8ca8d",
+      "Description": "Technician I"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Jesse Stewart",
+      "id": 3,
+      "GroupId": 3,
+      "Color": "#f8ca8d",
+      "Description": "Technician I"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Mask123409",
+      "id": 4,
+      "GroupId": 3,
+      "Color": "#f8ca8d",
+      "Description": "Gas Mask"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Sprayer099884",
+      "id": 5,
+      "GroupId": 3,
+      "Color": "bbdc00",
+      "Description": "Sprayer"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Jose Bush",
+      "id": 6,
+      "GroupId": 3,
+      "Color": "bbdc00",
+      "Description": "Technician II"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Herbert Hamilton",
+      "id": 7,
+      "GroupId": 3,
+      "Color": "bbdc00",
+      "Description": "Maintenance I"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Jay Ramsey",
+      "id": 8,
+      "GroupId": 3,
+      "Color": "e8b858",
+      "Description": "Maintenance II"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Leroy Peterson ",
+      "id": 9,
+      "GroupId": 3,
+      "Color": "bbdc00",
+      "Description": "Maintenance I"
+    },
+    {
+      "groupName": "resources",
+      "Name": "Joshua Ross ",
+      "id": 10,
+      "GroupId": 3,
+      "Color": "bbdc00",
+      "Description": "Maintenance I"
+    },
+    {
+      "StartTime": "2019-03-18T05:00:00.000Z",
+      "EndTime": "2019-03-18T05:30:00.000Z",
+      "IsAllDay": false,
+      "Description": "Routine preventitive insect abatement",
+      "ResourceId": 1,
+      "EventType": "New",
+      "id": 1002,
+      "requestType": "eventCreate",
+      "Name": 1002,
+      "groupName": "scheduleJobs",
+      "GroupId": 1,
+      "isActive": false
+    },
+    {
+      "Name": 1003,
+      "StartTime": "2019-03-07T02:00:00.000Z",
+      "EndTime": "2019-03-07T04:00:00.000Z",
+      "IsAllDay": false,
+      "Description": "Routine preventitive insect abatement",
+      "ScheduleGroupId": 1,
+      "ResourceId": 3,
+      "EventType": "New",
+      "id": 1003,
+      "requestType": "eventCreate",
+      "jobName": 1003,
+      "groupName": "scheduleJobs",
+      "GroupId": 1
+    },
+    {
+      "Name": 1001,
+      "StartTime": "Mon Mar 18 2019 15:00:22",
+      "EndTime": "Mon Mar 18 2019 16:30:22",
+      "IsAllDay": false,
+      "Description": "Routine preventitive insect abatement",
+      "ScheduleGroupId": 1,
+      "ResourceId": 1001,
+      "EventType": "New",
+      "id": 1001,
+      "requestType": "eventCreate",
+      "jobName": 1001,
+      "groupName": "scheduleJobs",
+      "GroupId": 1
+    },
+    {
+      "Name": 1004,
+      "StartTime": "Mon Mar 18 2019 14:30:22",
+      "EndTime": "Mon Mar 18 2019 15:30:22",
+      "IsAllDay": false,
+      "Description": "Routine preventitive insect abatement",
+      "ScheduleGroupId": 1,
+      "ResourceId": 1004,
+      "EventType": "New",
+      "id": 1004,
+      "requestType": "eventCreate",
+      "jobName": 1004,
+      "groupName": "scheduleJobs",
+      "GroupId": 1
+    },
+    {
+      "Name": 1005,
+      "Description": "Routine preventitive insect abatement",
+      "ScheduleGroupId": 1,
+      "ResourceId": 1005,
+      "id": 1005,
+      "requestType": "eventCreate",
+      "groupName": "scheduleJobs",
+      "GroupId": 1
+    },
+    {
+      "Name": 1000,
+      "StartTime": "Thu Mar 14 2019 16:31:41 GMT+0530",
+      "EndTime": "Thu Mar 14 2019 17:31:41 GMT+0530",
+      "IsAllDay": false,
+      "Description": "Routine preventitive insect abatement",
+      "ScheduleGroupId": 1,
+      "ResourceId": 1000,
+      "EventType": "New",
+      "id": 1000,
+      "requestType": "eventCreate",
+      "groupName": "scheduleJobs",
+      "GroupId": 1
+    }
+  ],
+  "scheduleddata": [
+    {
+      "id": 1,
+      "Name": "1002 - Ant Inspection and Abatement",
+      "StartTime": "Tue Mar 19 2019 09:00:00",
+      "EndTime": "Tue Mar 19 2019 10:00:00",
+      "ScheduleGroupId": 3,
+      "ResourceId": 1,
+      "ScheduleGroupName": "resources"
+    },
+    {
+      "id": 2,
+      "Name": "1001 - Roach Inspection and Abatement",
+      "StartTime": "Tue Mar 19 2019 12:00:00",
+      "EndTime": "Tue Mar 19 2019 13:45:00",
+      "ScheduleGroupId": 3,
+      "ResourceId": 1,
+      "ScheduleGroupName": "resources"
+    },
+    {
+      "id": 3,
+      "Name": "1001 - Roach Inspection and Abatement",
+      "StartTime": "Tue Mar 19 2019 11:30:00",
+      "EndTime": "Tue Mar 19 2019 14:00:00",
+      "ScheduleGroupId": 3,
+      "ResourceId": 2,
+      "ScheduleGroupName": "resources"
+    },
+    {
+      "id": 4,
+      "Name": "Break",
+      "StartTime": "Tue Mar 19 2019 15:00:00",
+      "EndTime": "Tue Mar 19 2019 16:00:00",
+      "ScheduleGroupId": 3,
+      "ResourceId": 2,
+      "ScheduleGroupName": "resources"
+    },
+    {
+      "id": 5,
+      "Name": "1001 - Roach Inspection and Abatement",
+      "StartTime": "Tue Mar 19 2019 11:30:00",
+      "EndTime": "Tue Mar 19 2019 14:00:00",
+      "ScheduleGroupId": 3,
+      "ResourceId": 3,
+      "ScheduleGroupName": "resources"
+    },
+    {
+      "id": 6,
+      "Name": "1001 - Roach Inspection and Abatement",
+      "StartTime": "Tue Mar 19 2019 09:30:00",
+      "EndTime": "Tue Mar 19 2019 10:30:00",
+      "ScheduleGroupId": 3,
+      "ResourceId": 3,
+      "ScheduleGroupName": "resources"
+    },
+    {
+      "id": 7,
+      "Name": "1001 - Roach Inspection and Abatement",
+      "StartTime": "Tue Mar 19 2019 09:30:00",
+      "EndTime": "Tue Mar 19 2019 10:30:00",
+      "ScheduleGroupId": 3,
+      "ResourceId": 4,
+      "ScheduleGroupName": "resources"
+    },
+    {
+      "id": 8,
+      "Name": "1001 - Roach Inspection and Abatement",
+      "StartTime": "Tue Mar 19 2019 12:30:00",
+      "EndTime": "Tue Mar 19 2019 13:45:00",
+      "ScheduleGroupId": 3,
+      "ResourceId": 4,
+      "ScheduleGroupName": "resources"
+    },
+    {
+      "Name": "Routine preventitive insect abatement",
+      "StartTime": "2019-03-19T05:30:00.000Z",
+      "EndTime": "2019-03-19T06:00:00.000Z",
+      "ScheduleGroupId": 1,
+      "ResourceId": 2,
+      "ScheduleGroupName": "scheduleJobs",
+      "id": 1
+    }
+  ],
+  "workactivities": [
+    {
+      "id": 1000,
+      "jobname": "Proactive Insect Prevention",
+      "type": "Project",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1000,
+          "descriptionTitle": "Description",
+          "description": "Proactive Insect Prevention",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "jobname": "Roach Inspection and Abatement",
+      "type": "Sales Order",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1001,
+          "descriptionTitle": "Description",
+          "description": "Roach Inspection and Abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "jobname": "Ant Inspection and Abatement",
+      "type": "Work Order",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1002,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "jobname": "Standard Critter Service",
+      "type": "Service Order",
+      "icon": "folder",
+      "StartTime": "2019-03-07T02:00:00.000Z",
+      "EndTime": "2019-03-07T04:00:00.000Z",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1003,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "jobname": "Termite Abatement",
+      "type": "Project",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1005,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "jobname": "Bat Abatement",
+      "type": "Task",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1006,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "jobname": "Preimum Critter Service",
+      "type": "Work Order",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1007,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1008,
+      "jobname": "Standard Critter Service",
+      "type": "Service Order",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1008,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1006,
+      "jobname": "Bat Abatement",
+      "type": "Task",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1006,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "type": "official",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "jobname": "Preimum Critter Service",
+      "type": "Work Order",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1007,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "type": "official",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "editLink": "Edit",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    },
+    {
+      "id": 1008,
+      "jobname": "Standard Critter Service",
+      "type": "Service Order",
+      "icon": "folder",
+      "parent": true,
+      "EventType": "New",
+      "nodeChild": [
+        {
+          "id": 1008,
+          "descriptionTitle": "Description",
+          "description": "Routine preventitive insect abatement",
+          "addressTitle": "Address",
+          "address": "474 Murray Roads Nicolasside 44101",
+          "city": "Kansas",
+          "zip": "10001",
+          "country": "Texas",
+          "contactTitle": "Contact",
+          "contact": "913.300.1234",
+          "type": "official",
+          "contact1": "758.465.9856",
+          "contact2": "845.345.3856",
+          "emailAddress": "Jon@gmail.com",
+          "requiredResourcesTitle": "Required Resources",
+          "requiredResources": [
+            "Maintnance Technician",
+            "Hazmat",
+            "CPR - 15 ft",
+            "Sprayer",
+            "Ladder",
+            "Respirator"
+          ],
+          "requiredSupplies": [
+            "6 oz Liquid",
+            "Bootcovers",
+            "Material Data Sheet (MDS)"
+          ],
+          "estimatedDurationTitle": "Estimated Duration",
+          "estimatedDuration": "2 hours",
+          "notes": "Eg: Technician needs to knock before going in. Technician needs to get signature before completing task",
+          "icon": "folder"
+        }
+      ]
+    }
+  ]
+}
